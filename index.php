@@ -29,5 +29,5 @@ try {
     echo $result->get('ObjectURL');
 } catch (Aws\S3\Exception\S3Exception $e) {
     echo "There was an error uploading the file.\n";
-    echo $e->getMessage();
+    echo $e->getMessage(); 
   }
