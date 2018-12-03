@@ -13,7 +13,6 @@ $s3 = new S3Client([
     ]
 ]);
  
- 
 $bucketName = 'elasticbeanstalk-us-east-2-440225585470';
 $file_Path = __DIR__ .'/DSC07472.jpg';
 $key = 'images/'.basename($file_Path);
